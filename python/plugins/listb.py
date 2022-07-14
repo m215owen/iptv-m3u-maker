@@ -12,7 +12,7 @@ class Source (object) :
     def __init__ (self):
         self.T = tools.Tools()
         self.now = int(time.time() * 1000)
-        self.siteUrl = str('http://m.iptv807.com/')
+        self.siteUrl = str('')
 
     def getSource (self) :
         urlList = []
